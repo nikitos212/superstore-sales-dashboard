@@ -101,3 +101,7 @@ docker ps
 ![Model](assets/05_model.png)
 
 ---
+
+## Скачать отчет
+- **PBIX (Power BI Desktop):** [superstore_dashboard.pbix](powerbi/superstore_dashboard.pbix)
+- **PDF (preview):** [superstore_dashboard.pdf](powerbi/superstore_dashboard.pdf)
