@@ -1,0 +1,16 @@
+services:
+  db:
+    image: postgres:16
+    container_name: superstore_pg
+    environment:
+      POSTGRES_DB: superstore
+      POSTGRES_USER: superstore
+      POSTGRES_PASSWORD: superstore
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./sql:/sql
+      - ./data:/data
+volumes:
+  pgdata:
